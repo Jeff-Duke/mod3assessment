@@ -8,7 +8,8 @@ class Answer extends Component {
     return (
       
       <label > 
-        <input type='checkbox' 
+        <input type='radio'
+               name={this.props.name}
                value={score}
                className='Answer'
         /> 
