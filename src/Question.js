@@ -9,9 +9,9 @@ class Question extends Component {
     return (
 
       <article className='Question'>
-        <p>
+        <h3>
           {title}
-        </p>
+        </h3>
         {answers.map((answer, index) => <Answer key={index} data={answer}/>)}
       </article>
 

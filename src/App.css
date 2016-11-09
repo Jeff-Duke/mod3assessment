@@ -1,10 +1,12 @@
 html {
   box-sizing: border-box;
 }
+
 #root {
   display: flex;
   flex-direction: column;
 }
+
 .App {
   margin: auto;
 }
@@ -12,9 +14,10 @@ html {
 .Question {
   background-color: #DDF4FB;
   width: 800px;
+  
 }
 
-.Question P {
+.Question h3 {
   background-color: #08627D;
   color: #FFF;
   padding: 20px;
@@ -22,8 +25,10 @@ html {
 
 .Answer {
   color: #000;
-  padding: 10px;
+  margin: 0 0 30px 30px;
 }
+
+
 
 
 

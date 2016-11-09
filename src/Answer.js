@@ -7,9 +7,10 @@ class Answer extends Component {
 
     return (
       
-      <label className='Answer'> 
+      <label > 
         <input type='checkbox' 
                value={score}
+               className='Answer'
         /> 
         {title} 
         <br/>

@@ -9,9 +9,9 @@ class Quiz extends Component {
     return (
 
       <section className='Quiz'>
-        <p>
+        <h1>
           {title}
-        </p>
+        </h1>
         {questions.map(question => <Question key={question.id} data={question}/>)}
       </section>
 
